@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-image: url(https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 25px;
+  text-align: center;
+  border: 2px solid whitesmoke;
+  padding: 10px;
+  background-color: darkorange;
+}
+
+.clock {
+  display: flex;
+}
+
+.clock div {
+  margin: 10px;
+}
+
+.clock span {
+  width: 100px;
+  height: 80px;
+  font-size: 40px;
+  font-weight: 300;
+  background-color: lightsalmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 3px black;
+  opacity: 0.8;
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: darkred;
+  font-weight: 800;
+}
+
+.clock #ampm {
+  position: relative;
+  top: 80px;
+  width: 60px;
+  height: 25px;
+  background-color: darkgray;
+  font-size: 25px;
+  padding: 2px;
+  font-weight: 700;
+}
